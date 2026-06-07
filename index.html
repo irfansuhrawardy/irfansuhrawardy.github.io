@@ -3,67 +3,108 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Irfan ul Aslam Suhrawardy</title>
 
 <style>
+
 body{
-    margin:0;
-    background:#111;
-    color:#f5f0e8;
-    font-family:Georgia,serif;
-    line-height:1.8;
+margin:0;
+background:#0f0f0f;
+color:#f5f0e8;
+font-family:Georgia,serif;
+line-height:1.8;
 }
 
 nav{
-    text-align:center;
-    padding:20px;
-    background:#1a1a1a;
+background:#111;
+padding:15px;
+text-align:center;
+position:sticky;
+top:0;
 }
 
 nav a{
-    color:#d4b97a;
-    text-decoration:none;
-    margin:0 15px;
+color:#d4b97a;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
 }
 
 header{
-    text-align:center;
-    padding:80px 20px;
+padding:60px 20px;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.8));
+}
+
+.author-photo{
+width:220px;
+height:220px;
+object-fit:cover;
+border-radius:50%;
+border:4px solid #d4b97a;
+display:block;
+margin:20px auto;
+box-shadow:0 0 30px rgba(212,185,122,.4);
 }
 
 h1{
-    font-size:3rem;
-    margin-bottom:10px;
+font-size:3rem;
+margin-bottom:10px;
 }
 
 .tagline{
-    color:#d4b97a;
-    font-size:1.2rem;
+color:#d4b97a;
+font-size:1.2rem;
 }
 
 section{
-    max-width:900px;
-    margin:auto;
-    padding:40px 20px;
+max-width:1000px;
+margin:auto;
+padding:40px 20px;
 }
 
 .card{
-    background:#1b1b1b;
-    padding:25px;
-    border-radius:12px;
-    margin-bottom:25px;
+background:#1b1b1b;
+padding:30px;
+border-radius:12px;
+margin-bottom:30px;
+}
+
+.book-cover{
+max-width:300px;
+width:100%;
+display:block;
+margin:20px auto;
+border-radius:12px;
+box-shadow:0 0 25px rgba(0,0,0,.5);
+}
+
+h2{
+color:#d4b97a;
 }
 
 a{
-    color:#d4b97a;
+color:#d4b97a;
+}
+
+.btn{
+display:inline-block;
+padding:12px 22px;
+background:#d4b97a;
+color:#111;
+text-decoration:none;
+border-radius:6px;
+margin:10px;
+font-weight:bold;
 }
 
 footer{
-    text-align:center;
-    padding:30px;
-    border-top:1px solid #333;
-    margin-top:40px;
+text-align:center;
+padding:30px;
+border-top:1px solid #333;
 }
+
 </style>
 </head>
 
@@ -78,6 +119,8 @@ footer{
 
 <header>
 
+<img src="assets/author.jpg" class="author-photo" alt="Irfan ul Aslam Suhrawardy">
+
 <h1>Irfan ul Aslam Suhrawardy</h1>
 
 <p class="tagline">
@@ -85,64 +128,71 @@ Poet • Author • Reflective Writer
 </p>
 
 <p>
-Poetry is the echo of silence learning to speak,
-a mirror where shadows reveal what light conceals.
+Exploring the depths beneath the surface of experience through poetry, contemplation and reflection.
 </p>
+
+<a class="btn" href="https://irfansuhrawardy.blogspot.com/" target="_blank">
+Read Poetry
+</a>
 
 </header>
 
-<section id="about">
+<section>
 
-<div class="card">
+<div class="card" id="about">
 
 <h2>About</h2>
 
 <p>
-Irfan ul Aslam Suhrawardy is a poet and author whose work explores
-spirituality, reflection, impermanence, silence, and the deeper
-realities hidden beneath everyday experience. Through poetry and prose,
-he seeks to illuminate the unseen dimensions of life and invite readers
-into a more contemplative engagement with the world.
+Irfan ul Aslam Suhrawardy is a poet and author whose writing explores spirituality, silence, impermanence, meaning and the unseen dimensions of human experience. Through poetry and prose, he invites readers to look beyond appearances and engage with deeper realities.
 </p>
 
 </div>
 
-</section>
-
-<section id="book">
-
-<div class="card">
+<div class="card" id="book">
 
 <h2>Reflections Beyond Surface!</h2>
 
+<img src="assets/book.jpg" class="book-cover" alt="Reflections Beyond Surface!">
+
 <p>
-A collection of reflections exploring meaning, spirituality,
-human experience, and the hidden depths beneath ordinary life.
+A collection of reflections exploring spirituality, human experience, silence, meaning and the deeper currents hidden beneath ordinary life.
 </p>
 
 <p>
-<a href="https://notionpress.com/read/reflections-beyond-surface">Notion Press Paperback</a><br><br>
 
-<a href="https://amzn.in/d/46rmAsW">Amazon Paperback</a><br><br>
+<a href="https://notionpress.com/read/reflections-beyond-surface">
+Notion Press Paperback
+</a>
 
-<a href="https://dl.flipkart.com/s/h1kKJtuuuN">Flipkart Paperback</a><br><br>
+<br><br>
 
-<a href="https://amzn.in/d/25BVtwz">Kindle eBook</a>
+<a href="https://amzn.in/d/46rmAsW">
+Amazon Paperback
+</a>
+
+<br><br>
+
+<a href="https://dl.flipkart.com/s/h1kKJtuuuN">
+Flipkart Paperback
+</a>
+
+<br><br>
+
+<a href="https://amzn.in/d/25BVtwz">
+Kindle eBook
+</a>
+
 </p>
 
 </div>
-
-</section>
-
-<section>
 
 <div class="card">
 
 <h2>Poetry Archive</h2>
 
 <p>
-Browse the growing collection of poems on philosophy,
-spirituality, love, silence, time, and transcendence.
+Poetry is the echo of silence learning to speak, a mirror where shadows reveal what light conceals.
 </p>
 
 <p>
@@ -153,11 +203,7 @@ Browse All Poems →
 
 </div>
 
-</section>
-
-<section id="contact">
-
-<div class="card">
+<div class="card" id="contact">
 
 <h2>Connect</h2>
 
@@ -165,9 +211,9 @@ Browse All Poems →
 <a href="https://www.facebook.com/share/1ERAdiqXFs/">
 Facebook
 </a>
-</p>
 
-<p>
+<br><br>
+
 <a href="https://irfansuhrawardy.blogspot.com/">
 Blog
 </a>
@@ -178,9 +224,7 @@ Blog
 </section>
 
 <footer>
-
 © 2026 Irfan ul Aslam Suhrawardy. All Rights Reserved.
-
 </footer>
 
 </body>
